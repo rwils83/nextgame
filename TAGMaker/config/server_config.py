@@ -6,3 +6,9 @@ class ServerConfig(BaseConfig):
 
     def port(self):
         return self.get(["port"])
+
+    def log_level(self):
+        return self.get(["logging", "log_level"])
+
+    def log_file(self):
+        return self.get(["logging", "log_file"])

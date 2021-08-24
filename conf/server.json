@@ -2,5 +2,9 @@
   "thing1": "value1",
   "array1": ["arval1", "arval2"],
   "dict1": {"dkew1": "dval1", "dkey2": "dval2"},
-  "port": 65432
+  "port": 65432,
+  "logging": {
+    "log_level": "DEBUG",
+    "log_file": "/tmp/server_log.txt"
+  }
 }
